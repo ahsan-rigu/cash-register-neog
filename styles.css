@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Ewert&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pinyon+Script&display=swap');
+
+
+
+:root{
+    --color-primary: black;
+    --color-background: #e8ebeb;
+}
+
+body{
+    font-family: 'Ewert', cursive;
+    background-color:  var(--color-background);
+    text-align: center;
+    border: .3rem solid var(--color-primary) ;
+    border-radius: 1rem;
+    max-width: 700px;
+    width: 90%;
+    margin: auto;
+    margin-top: 1rem;
+    
+}
+
+header{
+    font-size: 1.5rem;
+    border-bottom: .3rem solid var(--color-primary);
+    margin: 0px;
+}
+
+label{
+    display: block;
+    font-size: 1.5rem;
+    margin-top: 1.5rem;
+}
+
+input{
+    border: .2rem solid var(--color-primary);
+    border-radius: .5rem;
+    font-size: large;
+    background-color: var(--color-background);
+    margin-bottom: 1.5rem;
+}
+
+.container{
+    border: .2rem solid var(--color-primary);
+    margin: 1rem 20%;
+    border-radius: .5rem;
+    
+}
+
+button{
+    font-family: 'Ewert', cursive;
+    font-size: 2rem;
+    background-color: var(--color-primary);
+    border: .2rem solid white;
+    color: white;
+    border-radius: .5rem;
+    margin-bottom: 1rem;
+}
+
+table{
+    margin:auto;
+    border: .2rem solid var(--color-primary);
+    border-radius: .5rem;
+    padding: 0px;
+    
+}
+
+
+h3{
+    font-family: 'Pinyon Script', cursive;
+    margin: .1rem;
+}
+
+p{
+    font-family: 'Pinyon Script', cursive;
+    font-size: larger;
+}
+
+footer{
+    padding-top: 2rem;
+    border-top: .3rem solid var(--color-primary);
+    padding-bottom: 2rem;
+    font-size: larger;
+}
+
+th{
+    text-align: right;
+}
