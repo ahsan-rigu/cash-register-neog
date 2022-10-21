@@ -15,14 +15,14 @@
 
     <div class="container">
         <label for="bill-amount">BILL AMOUNT: </label>
-        <input type="text" id="bill-amount">
+        <input type="number" id="bill-amount">
     </div>
 
     
 
     <div class="container">
         <label for="cash-given">CASH GIVEN: </label>
-        <input type="text" id="cash-given">
+        <input type="number" id="cash-given">
     </div>
 
     <button id="calculate-change">CALCULATE</button>
@@ -32,13 +32,13 @@
             <caption>CHANGE BREAKDOWN:</caption>
             <tr>
                 <th>No. of notes:</th>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
+                <td class="no-of-notes">0</td>
+                <td class="no-of-notes">0</td>
+                <td class="no-of-notes">0</td>
+                <td class="no-of-notes">0</td>
+                <td class="no-of-notes">0</td>
+                <td class="no-of-notes">0</td>
+                <td class="no-of-notes">0</td>
             </tr>
             <tr>
                 <th>Availabel:</th>
@@ -52,7 +52,7 @@
             </tr>
 
         </table>
-        <p class="output-message">Message: Welcome have a nice day.</p>
+        <p id="output-message">Welcome.</p>
     </footer>
 
     
