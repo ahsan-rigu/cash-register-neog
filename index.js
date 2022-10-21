@@ -4,7 +4,7 @@
  const outputMessage = document.querySelector("#output-message");
  const noOfNotes = document.querySelectorAll(".no-of-notes");
 
- const availableNotes = [500,200,100,20,10,5,1];
+ const availableNotes = [500,200,100,50,20,10,5,1];
 
  calculateChange.addEventListener("click", onCalculate);
 

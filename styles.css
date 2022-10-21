@@ -87,3 +87,7 @@ footer{
 th{
     text-align: right;
 }
+
+td{
+    min-width: 2rem;
+}
